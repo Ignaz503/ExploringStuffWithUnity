@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c964eea6922f5ea45bd999b727cc8d33, type: 3}
+  m_Name: StatsInfluenceStorage
+  m_EditorClassIdentifier: 
+  CreateUseableAssetPath: Assets/Resources/Stats/InfluenceGraph/
+  CreateUseableAssetName: StatInfluenceGraph
+  NodeInfos:
+  - Name: Strength
+    Idx: 0
+    Position: {x: 791.7278, y: 581}
+  - Name: Vitality
+    Idx: 1
+    Position: {x: 731.3336, y: 766.874}
+  - Name: Inteligence
+    Idx: 2
+    Position: {x: 573.2197, y: 881.7505}
+  - Name: Dexterity
+    Idx: 3
+    Position: {x: 377.78024, y: 881.7505}
+  - Name: Wisdom
+    Idx: 4
+    Position: {x: 219.66635, y: 766.874}
+  - Name: Charisma
+    Idx: 5
+    Position: {x: 159.27225, y: 581}
+  - Name: Luck
+    Idx: 6
+    Position: {x: 219.66638, y: 395.12598}
+  - Name: Defense
+    Idx: 7
+    Position: {x: 377.78036, y: 280.2495}
+  - Name: Endurance
+    Idx: 8
+    Position: {x: 573.2198, y: 280.24954}
+  - Name: Resitance
+    Idx: 9
+    Position: {x: 731.33374, y: 395.1261}
+  ConnectionInfos:
+  - Influencer: 7
+    Influenced: 2
+    Value: 0.6
+  hasDataStored: 1
